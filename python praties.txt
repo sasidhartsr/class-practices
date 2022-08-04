@@ -1,0 +1,332 @@
+
+                                                #List
+
+                        #creating list
+"""a=[]
+print(type(a))
+a=[10,20,30,40,50]
+print(a)"""
+                        #acessing elements from list
+"""a=[10,20,30,40,50]
+print(a[1])
+print(a[-1])
+print(a[3])"""
+
+                        #slicing
+"""a=[10,20,30,40,50]
+print(a[:])
+print(a[3:5])
+print(a[2:5])"""
+                        #reassinging list elemest:
+"""a=[10,20,30,40,50,60,70,80]
+print(a[3],30)
+print(a)"""
+                        #multidimensional list
+""""a=[[10,20,30],[40,50]]
+print(a[0])
+print(a[1])
+print(a[0][1])
+print(a[1][1])"""
+
+"""s=[[10,20,30],[30,40]],[[50,60],[70,80]]
+print(s[1])
+print(s[0][0])
+print(s[0][0] [1])"""
+                        #Basic operations
+#+ basic operations
+"""a=[10,20,30]
+b=[40,50,60]
+print(a+b)
+#concatenation
+#*basic operation
+print(a*4)
+#repetition
+#len basic operation
+a=[10,20,30,40,50,60]
+print(len(a))
+#min basic operation
+print(min(a))
+#max basic operation
+print(max(a))
+#sum basic operation
+print(sum(a))"""
+
+                            #bulit in methods
+#append
+""""a=list()
+a.append(10)
+print(a)
+a.append(20)
+print(a)
+a.append([30,40,50,60,70,80])
+print(a)"""
+
+                            #extend
+"""a=[10,20,30,40,50]
+a.extend([30,40])
+#print(a)
+#print(a)
+t=a
+#print(t)
+print(t)
+t.extend([20,30,40,50])
+print(t)"""
+                        #insert
+"""a=[10,20,30,40,50]
+a.insert(1,5)
+#print(a)
+a.insert(3,78)
+print(a)
+a.insert(4,"sasidhar")
+print(a)"""
+
+                        #Remove
+"""a=[10,20,30,40,50]
+a.remove(50)
+#print(a)
+a.remove(20)
+#print(a)
+a.remove(10)
+#print(a)
+t=["apple","sasdihar","gowthami","vidya"]
+t.remove("apple")
+print(t)"""
+
+                    #pop
+"""a=[10,20,30,40,50]
+a.pop(3)
+print(a)"""
+#pop mean removing the element values
+
+                    #sort
+
+"""a=[10,35,44,20,30,45,40,50,70,80]
+a.sort()
+print(a)
+t=a
+print(t)"""
+
+                    #count
+
+"""a=[10,20,30,40,50]
+print((a*2))
+t=a
+print(t)"""
+
+"""l=[10,20,30,40,50,10,20,30,40,50,30]
+print(l.count(30))
+#g.pop(3)
+#print(g)
+#g.remove(40)
+#g.sort()
+#print(g)"""
+
+
+                    #indiex
+#a=[10,20,30,40,50]
+#print(a.index(30))
+                    #reverse
+"""a=[10,20,30,40,50]
+a.reverse()
+print(a)"""
+
+                    #list comprehernsion worng
+"""a=[ele*ele for ele in ragng(10)]
+a=[ele for ele in range(10) if ele%2=0]
+a=[ele*3 for ele in range(10) if ele%2==0]
+print(a)"""
+
+
+                    ####string
+#string methods
+"""str="python"
+print(str[0])
+print(type(str))
+print(str[3])"""
+
+"""str='welcome to python programming'
+print(str)
+g="your's"
+print(g)"""
+
+                                                #string basic operation
+#+
+"""s="python"
+g="welcome to python developer"
+print(s+g)
+print(s*9)
+print(len(s))
+print(min(s))
+print(max(s))
+########print(sum(s)) worng statement
+print('p'in s)
+
+for letter in s:
+    print(letter)"""
+
+# string of builin function methods
+"""s="Welcome to python programming"
+print(s.capitalize())"""
+
+"""s="python"
+print(s.center(20,"$"))"""
+
+"""s="Welcome to python programming"
+print(s.count('o'))
+print(s.count('o',8,len(s)))
+print(s.count('m',3,len(s)))"""
+
+"""s="Welcome to python programming"
+print(s.endswith("ing"))
+print(s.startswith("wel"))
+print(s.find('p'))
+print(s.rfind("p"))
+print(s.rindex("p"))"""
+
+#s="abc123"
+#s="123abc"
+#s="abc"
+#print(s.isalnum())
+#any one if fine for s.islnum
+#print(s.isalpha())
+#only a,b,c,d
+#print(s.isdigit())
+#only number ex; 1,2,3,4
+
+"""s="pythontowelcome"
+print(s.isspace())
+print(s.islower())
+print(s.isupper())"""
+#s="welcome to python programing"
+#print(s.title())
+#only first letter capital letter
+#print(s.ljust(5," "))
+#print(s.rjust(10," "))
+#print(s.upper())
+#all letters are capital letters
+#print(s.lower())
+##all letters are small letters
+"""mystr="aaaaaaaaaaaaawelcomeaaaaaaaaaaaaaaaaaaaa"
+#print(mystr.strip())
+#print(mystr.strip("a"))
+#print(mystr.rstrip("a"))
+#print(mystr.lstrip("a"))
+#print(max(mystr))
+#print(min(mystr))
+#print(mystr.split(""))
+#print(mystr.replace("a","z"))
+#print(mystr)
+#print(mystr.replace("a","gowthami"))"""
+
+"""str=("Welcome")
+print(str.swapcase())"""
+                                #set{}
+"""s=set()
+s={10,20,30,40}
+print(type(s))
+print(len(s))"""
+#-------------------------------------------------------------------
+"""a=int(input("enter the number value:-"))
+if 30>=0:
+    print("+ve number")
+else:
+    print("-ve number")"""
+
+
+"""a=int(input("enter a:"))
+b=int(input("enter b:"))
+if a>b:
+    pirnt("a is greate than b")
+elif a<b:
+    print("a is smaller than b:")
+else:
+    print("both are equal")"""
+
+"""a=int(input("enter a:"))
+b=int(input("enter b:"))
+c=int(input("enter c:"))
+if a>b:
+    if a>c:
+        print("a is big")
+    else:
+        print("c is Big")
+else:
+    if b>c:
+        print("b is big")
+    else:
+        print("c is big")"""
+"""g=int(input("enter g value"))
+t=0
+#loop variable
+while t<=g:
+    print(t,end="")
+    t=t+1"""
+"""for i in range(0,6,1):
+    print(i)"""
+
+"""for a in range (1,100,3):
+    print(a)"""
+"""for a in range(2,20,2):
+        print(a,end="")"""
+"""str="letter"
+for leeter in str:
+    print(leeter)"""
+"""l=[10,20,40,30]
+for ele in l:
+    print(ele)"""
+
+"""for i in range(5):
+    for j in range(5):
+        print("%",end="")
+    print(" ")"""
+"""for i in range(10):
+    if i==7:
+        break
+    else:
+        print(i,end="")"""
+
+"""for i in range(10):
+    if  i==5:
+        continue
+    else:
+        print(i,end="")"""
+
+"""import math
+print(math.ceil(10.3))
+print(math.floor(10.9))
+a=10
+b=20
+print(math.copysign(a,b))
+print(math.fabs(b))
+#etc......"""
+
+import random
+i=[10,20,30,40]
+print(random.choice(i))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
